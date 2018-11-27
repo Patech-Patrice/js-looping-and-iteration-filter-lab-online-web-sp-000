@@ -5,4 +5,6 @@ function findMatching(drivers,name){
     return driver.toLowerCase() === name.toLowerCase();
   });
 }
-function
+function fuzzyMatch(drivers,name){
+  return drivers.filter()
+}
